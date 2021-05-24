@@ -1,7 +1,8 @@
 numero = int(input("Escriba un número positivo: "))
 if numero < 0:
     print("¡Le he dicho que escriba un número positivo!")
-    print("Ha escrito el número {numero}")
+    print(f"Ha escrito el número {numero}")
 else:
     print("Ha escrito un positivo positivo")
-print("!Hasta la proxima")   
+    print(f"El número que ha escrito es: {numero}")
+print("Hasta la proxima!!!!!") 
